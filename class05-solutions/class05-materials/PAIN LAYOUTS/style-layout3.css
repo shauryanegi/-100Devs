@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    background: lightsalmon;
+    border: 3px solid black;
+    clear : both;
+}
+
+.first, .third, .fourth {
+    height: 400px;
+    width : 20%;
+    background: blue;
+    border: 3px solid black;
+    float : left;
+}
+
+.third {
+    background: red;
+}
+
+.fourth { 
+    background: lightslategrey;
+}
+.second {
+
+    height: 400px;
+    width : 40%;
+    background: magenta;
+    border: 3px solid black;
+    float : left;
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    clear: both;
+}
+
+.first {
+    height: 100px;
+    width: 100%;
+    background: greenyellow;
+    border: 3px solid black;
+    float: left;
+}
+
+.second, .third {
+    height: 125px;
+    width: 33.33%;
+    background: magenta;
+    border: 3px solid black;
+    float: left;
+}
+
+.third{
+    width: 66.67%;
+    background: red;
+    border: 3px solid black;
+    float: right;
+}
